@@ -1,5 +1,21 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
+header{
+    
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-top: 9px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+}
+.head{
+height: 66px;
+
+}
 .left img{
     width: 136px;
     height: 52px;
@@ -8,4 +24,34 @@
 nav ul li{
     list-style: none;
     padding-right: 40px;
+}
+
+.searchBar{
+    width: 34vw;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 0.3px solid grey;
+    background-color: #f7f7f7;
+}
+
+
+.section-1{
+    
+   
+}
+
+.homeImg{
+    margin-top: 35px;
+    width: 89vw;
+    cursor: pointer;
+}
+.section-2{
+    height: 10vh;
+}
+
+.banner{
+    margin-top: 0%;
+    width: 100vw;
+    cursor: pointer;
+    
 }

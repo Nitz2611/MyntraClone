@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    max-width: 80vw;  
+    padding: 0 5vw; 
     margin: auto;
 }
 
@@ -33,4 +33,8 @@ body{
 
 .bold{
     font-weight: bold;
+}
+
+.mx-2{
+    margin: 0 12px;
 }
