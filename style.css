@@ -12,6 +12,8 @@ header{
     padding-top: 9px;
     box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
 }
+
+
 .head{
 height: 66px;
 
@@ -35,11 +37,6 @@ nav ul li{
 }
 
 
-.section-1{
-    
-   
-}
-
 .homeImg{
     margin-top: 35px;
     width: 89vw;
@@ -54,4 +51,24 @@ nav ul li{
     width: 100vw;
     cursor: pointer;
     
+}
+footer{
+    text-align: center;
+}
+
+@media (max-width: 1500px){
+    .head{
+        height: 122px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .section-3{
+        flex-direction: column;
+    }
 }

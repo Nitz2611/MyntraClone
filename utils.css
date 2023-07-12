@@ -38,3 +38,9 @@ body{
 .mx-2{
     margin: 0 12px;
 }
+.my-2{
+    margin: 12px 0;
+}
+.mb-2{
+    margin-bottom: 10px;
+}
